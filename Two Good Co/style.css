@@ -1,0 +1,508 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body
+{
+    width: 100%;
+    height: 100%;
+}
+*::selection
+{
+    background-color: #000;
+    color: #fff;
+}
+#main
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#main #page1
+{
+    width: 100%;
+    height: 110vh;
+}
+#main #page1 h1
+{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 19vw;
+    line-height: 0.8;
+    font-weight: 900;
+    position: absolute;
+    top: 220px;
+    left: 160px;
+}
+@media screen and (min-width: 600px) {
+ 
+  }
+#navbar
+{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#navbar a
+{
+    color: #000;
+    text-decoration: none;
+}
+#navbar img
+{
+    height: 100px;
+    margin: 20px;
+}
+/* Page 2 */
+#page2
+{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+#main #page2 #mainimage
+{
+    position: relative;
+    top: 10px;
+    left: 30%;
+    width: 450px;
+    height: 530px;
+}
+#mainimage img
+{
+    position: absolute;
+    top: -40px;
+    left: -60%;
+    width: 1000px;
+    height: 600px;
+}
+/* Line Break */
+#page3 h4
+{
+    position: absolute;
+    margin: 0 58px;
+}
+#page4 h4
+{
+    position: absolute;
+    left: 88%;
+}
+#page4
+{
+    border-top: 1px solid #000;  
+}
+/* 3 PICTURES */
+#page5
+{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+#img1 img
+{
+  position: absolute;
+  width: 300px;
+  height: 500px;
+  top: 30px;
+  left: 80px;
+  background-size: cover;
+}
+
+#img2 img
+{
+  position: absolute;
+  width: 300px;
+  height: 500px;
+  top: 30px;
+  left: 470px;
+  background-size: cover;
+}
+
+#img3 img
+{
+  position: absolute;
+  width: 300px;
+  height: 500px;
+  top: 30px;
+  left: 890px;
+  background-size: cover;
+}
+/* PAGE 6 */
+#page6
+{
+    width: 100%;
+    height: 60vh;
+    position: relative;
+}
+#page6 #text1 h1
+{
+    width: 50%;
+    height: 50vh;
+    position: absolute;
+    top: 20px;
+    left: 69px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 900;
+    font-size: 90px;
+    line-height: 1;
+    
+}
+#page6 #text2 
+{
+    width: 30%;
+    height: 50vh;
+    position: absolute;
+    top: 20px;
+    left: 800px;
+    font-weight: 100;
+    line-height: 2;
+}
+#page6 #text2 a
+{
+    text-decoration: none;
+    color: #000;
+}
+/* Page7 */
+#page7
+{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+#page7 #item1 img
+{
+    width: 30%;
+    height: 80vh;
+    position: absolute;
+    top: 10px;
+    left: 100px;
+    background-size: cover;
+}
+#page7 #item1-text
+{
+    width: 25%;
+    height: 20vh;
+    position: absolute;
+    top: 500px;
+    left: 150px;
+}
+#page7 #item1-text h6
+{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+#page7 #item1-text h4
+{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+#page7 #item2 img
+{
+    width: 30%;
+    height: 80vh;
+    position: absolute;
+    top: 10px;
+    left: 800px;
+    background-size: cover;
+}
+#page7 #item2-text
+{
+    width: 25%;
+    height: 20vh;
+    position: absolute;
+    top: 500px;
+    left: 850px;
+}
+#page7 #item2-text h6
+{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+#page7 #item2-text h4
+{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+/* Page8 */
+#page8
+{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+#page8 #item3 img
+{
+    width: 30%;
+    height: 80vh;
+    position: absolute;
+    top: 10px;
+    left: 100px;
+    background-size: cover;
+}
+#page8 #item3-text
+{
+    width: 25%;
+    height: 20vh;
+    position: absolute;
+    top: 500px;
+    left: 150px;
+}
+#page8 #item3-text h6
+{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+#page8 #item3-text h4
+{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+#page8 #item4 img
+{
+    width: 30%;
+    height: 80vh;
+    position: absolute;
+    top: 10px;
+    left: 800px;
+    background-size: cover;
+}
+#page8 #item4-text
+{
+    width: 25%;
+    height: 20vh;
+    position: absolute;
+    top: 500px;
+    left: 850px;
+}
+#page8 #item4-text h6
+{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+#page8 #item4-text h4
+{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+/* Page 9 */
+#page9
+{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+#head1
+{
+    width: 30%;
+    height: 2vh;
+    padding: 0 60px;
+}
+#head2
+{
+    width: 20%;
+    height: 2vh;
+    position: absolute;
+    left: 80%;
+    top: 0;
+}
+#heromessage
+{
+    position: absolute;
+    background-color: #fff;
+    width: 55%;
+    height: 80vh;
+    left: 25%;
+    top: 10%;
+}
+#heromessage h1
+{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 7vw;
+    line-height: 0.8;
+    font-weight: 900;
+}
+/* PAGE 10 */
+#page10
+{
+    width: 100%;
+    height: 80vh;
+    position: relative;
+}
+#mainbutton
+{
+    position: absolute;
+    width: 30%;
+    height: 20vh;
+    top: 10%;
+    left: 32%;
+}
+#mainbutton button
+{
+    background-color: #000;
+    color: #fff;
+    position: absolute;
+    left: 25%;
+    padding: 20px 20px;
+    border-radius: 50px;
+    border: none;
+}
+#mainmessage
+{
+    position: absolute;
+    width: 30%;
+    height: 20vh;
+    top: 30%;
+    left: 40%;
+}
+/* PAGE11 */
+#page11
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+#kid1
+{
+    position: absolute;
+    width: 30%;
+    height: 80vh;
+    left: 7%;
+}
+#kid1 a
+{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+#kid1 h1
+{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 4vw;
+}
+#kid2 img
+{
+    position: absolute;
+    left: 40%;
+    width: 25%;
+    height: 80vh;
+    background-size: cover;
+}
+#kid3 img
+{
+    position: absolute;
+    left: 70%;
+    width: 25%;
+    height: 80vh;
+    background-size: cover;
+}
+/* PAGE 12 */
+#page12
+{
+    width: 100%;
+    height: 150vh;
+    position: relative;
+}
+#email
+{
+    position: absolute;
+    left: 6%;
+    width: 60%;
+    height: 10vh;
+}
+#email h1
+{
+    font-family: 'Bebas Neue', sans-serif;
+    color: #000;
+    font-size: 5vw;
+}
+#icon
+{
+    position: absolute;
+    left: 90%;
+    width: 10%;
+    height: 10vh;
+}
+.ri-arrow-right-line
+{
+    font-size: 5vw;
+}
+#links
+{
+    width: 15%;
+    height: 30vh;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+}
+#links h4
+{
+    font-family: 'Protest Riot', sans-serif;
+}
+#links2 h4
+{
+    font-family: 'Protest Riot', sans-serif;
+}
+#links a
+{
+    display: block;
+    text-decoration: none;
+    color: #000;
+    font-family: 'Protest Riot', sans-serif;
+}
+#imgj img
+{
+    height: 45vh;
+    width: 25%;
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    background-size: cover;
+}
+#links2
+{
+    width: 15%;
+    height: 30vh;
+    position: absolute;
+    top: 25%;
+    left: 80%;
+}
+#links2 a
+{
+    display: block;
+    text-decoration: none;
+    color: #000;
+    font-family: 'Protest Riot', sans-serif;
+}
+#copright
+{
+    position: absolute;
+    height: 10vh;
+    width: 30%;
+    top: 58%;
+    left: 32%;
+}
+#copright h6
+{
+    display: inline-block;
+    padding: 0 15px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Protest Riot', sans-serif;
+    font-family: 'Single Day', cursive;
+}
+#page12 #ending
+{
+    position: absolute;;
+    height: 50vh;
+    width: 50%;
+    top: 65%;
+    left: 22%;
+}
+#page12 #ending p
+{
+    text-align: center;
+    color: #000;
+    font-family: 'Protest Riot', sans-serif;
+}
